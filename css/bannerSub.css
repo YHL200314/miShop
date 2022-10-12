@@ -1,0 +1,65 @@
+.bannerSub {
+    width: 100%;
+    height: 200px;
+    margin-top: 20px;
+    /* background-color: #424242; */
+    display: flex;
+    align-items: center;
+}
+
+.bannerSubContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bannerSubContent>div {
+    width: 290px;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.subOne {
+    font-size: 12px;
+    background-color: rgb(97, 87, 78);
+}
+
+.subOne>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.subOne>ul>li {
+    width: 33.3%;
+    height: 50%;
+    box-sizing: border-box;
+    border: 0.5px solid #ccc;
+}
+
+.subOne>ul>li>a>div {
+    width: 100%;
+    height: 60%;
+    text-align: center;
+    line-height: 100%;
+    margin-top: 10px;
+}
+
+.subTwo img {
+    width: 100%;
+    height: 100%;
+}
+
+.subThree img {
+    width: 100%;
+    height: 100%;
+}
+
+.subFour img {
+    width: 100%;
+    height: 100%;
+}

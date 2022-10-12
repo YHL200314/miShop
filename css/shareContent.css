@@ -1,0 +1,150 @@
+.shareContent{
+    width: 100%;
+    /* height: 10000px; */
+    margin-top: 20px;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+}
+.PictureCard{
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    margin-top: 20px;
+    /* background-color: #000000; */
+}
+/* 上边 */
+.PictureCardTop{
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+}
+.PictureCardTopLeft{
+    display: flex;
+}
+.PictureCardTopImg{
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.PictureCardTitle{
+    /* width: 100px; */
+    /* background-color: #00FFFF; */
+}
+.PictureCardTitleTop{
+    display: flex;
+}
+.vipImg{
+    width: 40px;
+    height: 14px;
+}
+.personalDescription{
+    font-size: 12px;
+    color: gray;
+}
+
+.followBtn{
+    width: 50px;
+    height: 30px;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 16px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 30px;
+    color: black;
+    background-color: rgb(243,243,240);
+}
+
+/* 中间 */
+.PictureCardConter{
+    width: 100%;
+}
+.reflections{
+    margin-top: 10px;
+}
+.reflectionsImg{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.reflectionsImgItem{
+    width: 130px;
+    height: 130px;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+
+/* 下面 */
+.PictureCardBottom{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.PictureCardBottomLeft{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.CardTags_tags{
+    display: flex;
+}
+.CardTags_tags_1{
+    width: 90px;
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 28px;
+    display: flex;
+}
+.CardTags_tags_2{
+    width: 70px;
+    height: 30px;
+    margin-left: 10px;
+    border: 1px solid gray;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    display: flex;
+}
+.CardTags_tagsImg{
+    margin-left: 4px;
+}
+.writtenWords{
+    font-size: 14px;
+    color: gray;
+    margin-left: 10px;
+}
+.PictureCardBottomRight{
+    margin-top: 10px;
+    display: flex;
+}
+.CardBottom{
+    
+    display: flex;
+    /* align-items: center; */
+}
+.CardBottomNum{
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+}
+/* 水平线 */
+.level{
+    width: 95%;
+    height: 0px;
+    margin: 30px auto;
+    border-top: 1px solid #CCCCCC;
+}

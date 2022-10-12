@@ -1,0 +1,75 @@
+.videoContent{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    /* background-color: #424242; */
+}
+.videoTop{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+.videoBottom{
+    width: 100%;
+    height: 260px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+}
+.videoBottom > div{
+    width: 24%;
+    height: 260px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    /* background-color:#CCCCCC; */
+}
+    
+.videoBottom > div:hover{
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+}
+.videoImg{
+    width: 100%;
+    height: 66.6%;
+    position: relative;
+    background-color: aqua;
+}
+.videoImgContent{
+    width: 100%;
+    height: 33.3%;
+    /* background-color: blueviolet; */
+}
+.videoImgContent >div{
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.play{
+    width: 40px;
+    height: 26px;
+    position: absolute;
+    /* overflow: hidden; */
+    top: 140px;
+    left: 10px;
+    border: 2px solid #FFFFFF;
+    border-radius: 13px 13px;
+    background-color: rgba(57,77,94,0.2);
+}
+.play>span{
+    position: absolute;
+    color: white;
+    top: 2px;
+    left: 10px;
+}
+.videoImg:hover .play{
+    background-color: rgb(255,103,0);
+    border: 2px solid rgb(255,103,0);
+}
+.videoItem{
+    cursor: pointer;
+}

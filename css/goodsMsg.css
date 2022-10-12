@@ -1,0 +1,67 @@
+.nav-bar{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #CCCCCC;
+    box-shadow:0px 10px 10px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    /* z-index: 9; */
+}
+.container{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    z-index: 9;
+    justify-content: space-between;
+}
+
+/* 左边 */
+.containerLeft ul{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    color: #616161;
+}
+.containerLeft ul li{
+    height: 60px;
+    line-height: 60px;
+    padding: 0 5px;
+}
+.containerLeft ul li a{
+    color: #616161;
+}
+.containerLeft ul li a:hover{
+    color: rgb(255,103,0);
+}
+.containerLeft ul li:nth-of-type(1) a{
+    font-size: 20px;
+    color: black;
+}
+
+/* 右边 */
+.containerRight ul{
+    height: 60px;
+    line-height: 60px;
+    display: flex;
+}
+.containerRight ul li{
+    padding: 0 5px;
+}
+.containerRight ul a{
+    color: black;
+}
+.containerRight ul a:hover{
+    color: rgb(255,103,0);
+}
+
+/* 商品价格展示 */
+/* .commodityPrice{
+    margin-top: 1.25rem;
+    width: 600px;
+    height: 150px;
+    background-color: #000000;
+} */
+

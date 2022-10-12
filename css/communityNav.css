@@ -1,0 +1,85 @@
+.p250{
+    padding: 0 250px;
+}
+
+.communityNav{
+    width: 100%;
+    height: 60px;
+    padding: 0px 40px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 9;
+    background-color: white;
+}
+.communityNavList{
+    width: 100%;
+    height: 100%;
+    /* background-color: #424242; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.communityLeft{
+    display: flex;
+    justify-content: space-between;
+}
+.communityLeft > div{
+    height: 50px;
+    padding: 0 16px;
+    text-align: center;
+    line-height: 50px;
+    /* height: 50px; */
+    /* background-color: #00FFFF; */
+}
+.communityLeft > div > a{
+    color: black;
+}
+.communityLeft > div > a:hover{
+    color: gray;
+}
+.communityLeft > div:nth-of-type(1){
+    width: 82px;
+}
+.communityLeft > div:nth-of-type(2){
+    font-size: 20px;
+    font-weight: bold;
+}
+.communityLogin{
+    width: 60px;
+    height: 28px;
+    border: 1px solid black;
+    border-radius: 14px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    line-height: 26px;
+    background-color: #000000;
+}
+/* 内容 */
+.communityContent{
+    width: 100%;
+    /* height: 10000px; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(243,244,245);
+}
+.communityContent > div {
+    margin-top: 20px;
+}
+
+/* 左边 */
+.share{
+    width: 70%;
+    /* height: 1000px; */
+    /* background-color: #00FFFF; */
+}
+.shareTop{
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    border: 1px solid rgb(0,0,0,0);
+    border-radius: 16px;
+}
+

@@ -1,0 +1,102 @@
+/* 固定信息栏 */
+.shareRightBottom{
+    width: 100%;
+    height: 450px;
+    margin-top: 20px;
+    position: sticky;
+    top: 80px;
+    /* background-color: #000000; */
+}
+.ContainTitleCard{
+    width: 100%;
+    height: 240px;
+    border: 1px solid rgb(0,0,0,0);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+.ContainTitleCardTop{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ContainTitleCardTop a{
+    color: black;
+}
+.ContainTitleCardTop span{
+    color: #CCCCCC;
+    font-size: 12px;
+}
+.RecommendCircle{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.RecommendCircle > a{
+    width: 24%;
+    height: 49%;
+}
+.RecommendCircleContent{
+   width: 100%;
+    height: 100%;
+    font-size: 12px;
+    /* margin-top: 5px; */
+    /* background-color: #424242; */
+}
+.RecommendCircleContent div:nth-of-type(1){
+    width: 40px;
+    height: 40px;
+    margin: 0 auto;
+    border: 1px solid rgba(255,255,255,0);
+    border-radius: 16px;
+    text-align: center;
+    overflow: hidden;
+    
+}
+.RecommendCircleContent div:nth-of-type(2){
+    margin-top: 5px;
+    color: #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.DownCard{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    border: 1px solid rgba(0,0,0,0);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.DownCard a{
+    color: #000000;
+}
+.DownCard a:hover{
+    color: #000000;
+}
+/* 用户协议 */
+.UserProtocol{
+    width: 100%;
+    height: 90px;
+    margin-top: 20px;
+}
+.UserProtocol > div > ul {
+    display: flex;
+
+}
+.UserProtocol a{
+    font-size: 12px;
+    color: gray;
+}
+.UserProtocol a:hover{
+    color: grey;
+}

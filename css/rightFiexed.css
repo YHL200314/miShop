@@ -1,0 +1,90 @@
+.rightFiexed{
+    width: 80px;
+    height: 450px;
+    position: fixed;
+    top: 140px;
+    right: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rightFiexed > div{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid rgb(245,245,242);
+    background-color: white;
+}
+.rightFiexed > div:hover span{
+    color: rgb(255,103,0);
+}
+
+.rightFiexedImg{
+    width: 40px;
+    height: 40px;
+    /* background-image: url("https://i8.mifile.cn/b2c-mimall-media/98a23aae70f25798192693f21c4d4039.png"); */
+    background-size: 100% 100%;
+    margin: 0 auto;
+}
+.rightFiexedMsg{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: gray;
+}
+
+.backTop{
+    width: 80px;
+    height: 90px;
+    display: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: fixed;
+    top: 600px;
+    right: 0px;
+    background-color: white;
+    border: 1px solid rgb(245,245,242);
+    cursor: pointer;
+}
+.backTopImg{
+    width: 40px;
+    height: 40px;
+    background-size: 100% 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-image: url("//i1.mifile.cn/f/i/2018/home/totop.png");
+}
+.backTop:hover .backTopImg{
+    background-image: url("//i1.mifile.cn/f/i/2018/home/totop_hover.png");
+}
+.backTopMsg{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    color: gray;
+}
+.backTop:hover .backTopMsg{
+   color: rgb(255,103,0);
+}
+
+/* 手机二维码 */
+.phoneCode{
+    width: 120px;
+    height: 180px;
+    position: fixed;
+    top: 140px;
+    right: 90px;
+    padding: 20px 18px;
+    background-color: white;
+    display: none;
+    border: 1px solid rgb(245,245,242);
+}
+.phoneCodeMsg{
+    margin-top: 10px;
+    color: #ccc;
+}
+
+

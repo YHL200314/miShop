@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="叶辉龙"/>
+    <link rel="stylesheet" type="text/css" href="./css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/head.css"/>
+    <link rel="stylesheet" type="text/css" href="./css/li下的商品.css"/>
+    <script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" src="js/headList-goods2.js"></script>
+    <title>叶辉龙</title>
+</head>;
+<body>
+    <!-- 头部 -->
+    <div class="header p150">
+        <div class="headContent">
+            <div class="logo">
+            </div>
+            <div class="headList">
+                <ul>
+                    <li class="lis"><a href="#">Xiaomi手机</a></li>
+                    <li class="lis"><a href="#">Redmi手机</a></li>
+                    <li class="lis"><a href="#">电视</a></li>
+                    <li class="lis"><a href="#">笔记本</a></li>
+                    <li class="lis"><a href="#">平板</a></li>
+                    <li class="lis"><a href="#">家电</a></li>
+                    <li><a href="#">路由器</a></li>
+                    <li><a href="#">服务中心</a></li>
+                    <li><a href="小米社区.html">社区</a></li>
+                    
+                </ul>
+            </div>
+            <div class="search">
+                <div class="searchIputBox">
+                    <input type="text" name="" id="" value="" placeholder="耳机"/>
+                </div>
+                <div class="searchBtn">
+                    <img src="img/搜索.png" >
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- li下的商品 -->
+    <div class="headList-goods p150">
+        <div class="List-goods">
+            <div class="List-goods-img">
+                <img src="" class="ListgoodsImg">
+            </div>
+            <p style="font-size: 12px;">Xiaomi 12S Ultra</p>
+            <p style="color: rgb(255,103,0); font-size: 12px;">5999元起</p>
+        </div>
+        <div class="line"></div>
+        <div class="List-goods">
+            <div class="List-goods-img">
+                <img src="" class="ListgoodsImg">
+            </div>
+            <p style="font-size: 12px;">Xiaomi 12S Ultra</p>
+            <p style="color: rgb(255,103,0); font-size: 12px;">5999元起</p>
+        </div>
+        <div class="line"></div>
+        <div class="List-goods">
+            <div class="List-goods-img">
+                <img src="" class="ListgoodsImg">
+            </div>
+            <p style="font-size: 12px;">Xiaomi 12S Ultra</p>
+            <p style="color: rgb(255,103,0); font-size: 12px;">5999元起</p>
+        </div>
+        <div class="line"></div>
+        <div class="List-goods">
+            <div class="List-goods-img">
+                <img src="" class="ListgoodsImg">
+            </div>
+            <p style="font-size: 12px;">Xiaomi 12S Ultra</p>
+            <p style="color: rgb(255,103,0); font-size: 12px;">5999元起</p>
+        </div>
+        <div class="line"></div>
+        <div class="List-goods">
+            <div class="List-goods-img">
+                <img src="" class="ListgoodsImg">
+            </div>
+            <p style="font-size: 12px;">Xiaomi 12S Ultra</p>
+            <p style="color: rgb(255,103,0); font-size: 12px;">5999元起</p>
+        </div>
+        <div class="line"></div>
+        <div class="List-goods">
+            <div class="List-goods-img">
+                <img src="" class="ListgoodsImg">
+            </div>
+            <p style="font-size: 12px;">Xiaomi 12S Ultra</p>
+            <p style="color: rgb(255,103,0); font-size: 12px;">5999元起</p>
+        </div>
+    </div>
+    
+</body>
+
+    <!-- <script>
+        let arr =['//cdn.cnbj1.fds.api.mi-img.com/nr-pub/202207011810_86ad513472d1423a3fdec8d7d5107038.png?thumb=1&w=250&h=250&f=webp&q=90','//cdn.cnbj1.fds.api.mi-img.com/mi-mall/211bb83776a8e0c8358732c3f3aa2864.png?thumb=1&w=250&h=250&f=webp&q=90','//cdn.cnbj1.fds.api.mi-img.com/mi-mall/82ff5ea76730fdf6f91aba5d3b2e5739.jpg?thumb=1&w=250&h=250&f=webp&q=90','//cdn.cnbj1.fds.api.mi-img.com/mi-mall/0f8abb2bc3947c4679e3f1b2aafc28c0.jpg?thumb=1&w=250&h=250&f=webp&q=90','//cdn.cnbj1.fds.api.mi-img.com/mi-mall/ed0541d2337dc4fff6e52c2b7f162fe5.jpg?thumb=1&w=250&h=250&f=webp&q=90','//cdn.cnbj1.fds.api.mi-img.com/mi-mall/050a724309c945e0ffef3fb633069b49.jpg?thumb=1&w=250&h=250&f=webp&q=90']
+        
+        $('.headList-goods').hide()
+        
+        $('.lis').mouseover(function(){
+            let index = $(this).index()
+            $('.ListgoodsImg').attr('src',arr[index])
+            $('.headList-goods').slideDown()
+            // $('.headList-goods').css('height','200px')
+            // $('.headList-goods').css('transition','height .5s')
+        })
+        $('.lis').mouseout(function(){
+            $('.headList-goods').slideUp()
+            // $('.headList-goods').css('height','0px')
+            // $('.headList-goods').css('transition','height .5s')
+        })
+        $('.headList-goods').mouseover(function(){
+            // $('.headList-goods').slideDown()
+            $('.headList-goods').css('height','200px')
+        })
+        $('.headList-goods').mouseout(function(){
+            $('.headList-goods').slideUp()
+            // $('.headList-goods').css('height','0px')
+            // $('.headList-goods').css('transition','height .5s')
+        })
+        
+    </script> -->
+
+</html>

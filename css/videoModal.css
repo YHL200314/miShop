@@ -1,0 +1,36 @@
+.videoModal{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: -30px;
+    background-color: rgba(0,0,0,.5);
+    display: none;
+}
+.videoModalContent{
+    width: 850px;
+    height: 555px;
+    margin: 100px auto;
+    background-color: white;
+}
+.videoModalContentTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+}
+.videoModalClose{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.videoModalClose:hover{
+    background-color: rgb(255,57,19);
+    cursor: pointer;
+}
+.videoModalTitle{
+    font-size: 18px;
+}
+.videoModalContentbottom{
+    width: 100%;
+    height: 490px;
+}
